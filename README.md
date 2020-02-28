@@ -49,6 +49,8 @@ Trigger workflow on every week Monday at 9 o'clock UTC
 
 ![](./screenshots/trigger_workflow_on_schedule.png)
 
+Running workflow would display the detailed execution
+
 
 
 
