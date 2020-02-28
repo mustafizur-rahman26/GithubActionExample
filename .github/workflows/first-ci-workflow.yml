@@ -1,0 +1,19 @@
+name: First CI workflow
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    # This job runs on latest version of Ubuntu GitHub-hosted runner. It can be self hosted (self-hosted)
+    runs-on: ubuntu-latest
+
+    steps:
+    # Requires on building and testing our repo or using CI
+    # Using v2, ensures we are using a stable version of the checkout action
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
