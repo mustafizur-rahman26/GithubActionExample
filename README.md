@@ -51,11 +51,11 @@ Trigger workflow on every week Monday at 9 o'clock UTC
 
 ![](./screenshots/trigger_workflow_on_schedule.png)
 
-Running workflow
+## Running workflow
 
 ![](./screenshots/runniung_workflow.png)
 
-Completed workflow
+## Completed workflow
 
 ![](./screenshots/completed_workflow.png)
 
