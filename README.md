@@ -17,6 +17,8 @@ Enables you to create custom software development life cycle (SDLC) workflows di
      A set of steps that execute on the same runner. 
 #### Step
      A step is an individual task that can run commands or actions.
+     
+![](./screenshots/github_workflow_example.png)
 
 ## Creating a workflow file
 1. At the root of your repository, create a directory named ` .github/workflows ` to store your workflow files.
