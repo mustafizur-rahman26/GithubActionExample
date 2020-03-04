@@ -1,6 +1,9 @@
 name: First CI workflow
 # This workflow is triggered on pushes to the repository.
-on: [push, pull_request]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   my_first_job:
